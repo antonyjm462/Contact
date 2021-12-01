@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-body {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-content {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.btn-color{
+  color: '#F33163 !important'
+}
+
+.vl {
+  border-left: 2px solid #C4C4C4;
+  height: 500px;
+}
+
+.person-img{
+  height: 200px !important;
+  width: 230px !important;
+}
+
+.fab-container {
+  position: fixed !important;
+  bottom: 50px !important;
+  right: 50px !important;
+  z-index: 999 !important;
+  cursor: pointer;
+}
+
+.person-name{
+  font-weight: 600;
+  font-size: 2rem;
+  color: #484444;
+}
+
+.person-info{
+  font-size: 20px;
+  color: #9E9494;
+}
+
+.icon-design{
+  color: #F33163 !important;
+}
+
+.profile-pic{
+  height: 60px;
+  width: 60px;
+}
+
+.contact-view{
+  width: 400px !important;
+  min-height: 400px !important;;
+}
+
